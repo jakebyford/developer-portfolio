@@ -74,6 +74,12 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import pandas from '../assets/svg/skills/pandas.svg'
+import flask from '../assets/svg/skills/flask.svg'
+import tableau from '../assets/svg/skills/tableau.svg'
+import r from '../assets/svg/skills/R.svg'
+import ubuntu from '../assets/svg/skills/ubuntu.svg'
+import scikit from '../assets/svg/skills/scikit.svg'
 
 
 export const skillsImage = (skill) => {
@@ -227,6 +233,18 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'pandas':
+            return pandas;
+        case 'flask':
+            return flask;
+        case 'tableau':
+            return tableau;
+        case 'r':
+            return r;
+        case 'ubuntu':
+            return ubuntu;
+        case 'sci-kit learn':
+            return scikit;
         default:
             break;
     }

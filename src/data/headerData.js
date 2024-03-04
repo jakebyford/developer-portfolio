@@ -1,9 +1,16 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/resume_JakeByford.pdf'
+import me from '../assets/png/me_dsc.PNG'
+// import katex from 'katex';
+
+// Define the normal distribution formula using LaTeX
+// const normalDistributionFormula = `f(x) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}`;
+
+
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
+    name: 'Jake Byford',
+    title: "Python Developer",
+    desciption:"Passionate about data, coding, and a good laugh. Welcome to my universe! 🌌🚀",
+    image: me,
     resumePdf: resume
 }

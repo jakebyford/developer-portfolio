@@ -13,7 +13,7 @@ import {
     FaLinkedin,
     FaGithub,
     FaYoutube,
-    FaBlogger,
+    FaMedium
 } from 'react-icons/fa';
 
 function Landing() {
@@ -127,16 +127,16 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {socialsData.medium && (
                             <a
-                                href={socialsData.blogger}
+                                href={socialsData.medium}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaBlogger
+                                <FaMedium
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
+                                    aria-label='Medium'
                                 />
                             </a>
                         )}
@@ -167,12 +167,12 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='JAKE_BYFORD_RESUME'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        Resume
                                     </Button>
                                 </a>
                             )}

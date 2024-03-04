@@ -17,7 +17,7 @@ function Testimonials() {
         dots: true,
         adaptiveHeight: true,
         infinite: true,
-        speed: 800,
+        speed: 8000,
         arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,

@@ -9,12 +9,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   height: 100%;
   position: relative;
 }
 
 .landing--img {
-  --img-size: 400px;
+  --img-size: 800px;
   position: absolute;
   left: 35%;
   transform: translateX(-50%);
@@ -235,7 +236,7 @@
   }
 
   .landing--img {
-    --img-size: 150px;
+    --img-size: 50px;
     left: 50%;
     top: 20%;
   }
